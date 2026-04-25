@@ -1,0 +1,352 @@
+mirrors:
+  - name: Shatel
+    url: https://mirror.shatel.ir
+    description: Official Iranian mirror hosted by Shatel ISP.
+    packages:
+      - Ubuntu
+      - Debian
+      - Kali
+
+  - name: KubarCloud
+    url: https://mirrors.kubarcloud.com
+    description: Kubar internal mirror with support for Linux kernel sources and various archives.
+    packages:
+      - Linux kernel
+      - Debian
+      - Ubuntu
+      - Alpine
+      - Arch Linux
+
+  - name: ITO (Information Technology Organization)
+    url: https://repo-portal.ito.gov.ir/repo
+    description: Maintained by Iran Information Technology Organization, supporting multiple package types.
+    packages:
+      - YUM/DNF (CentOS, Fedora, Rocky)
+      - Python
+      - npm
+      - Yarn
+
+  - name: Jamko
+    url: https://jamko.ir
+    description: Documentation and config examples for developers.
+    packages:
+      - Maven
+      - Gradle
+      - Android SDK
+      - APT
+      - RPM
+      - NuGet
+      - Yarn
+      - Composer
+      - pip
+
+  - name: Runflare
+    url: https://runflare.com/mirrors
+    description: Daily auto-updated mirrors with simple guides.
+    packages:
+      - Composer/Packagist
+      - PyPI
+      - npm
+      - Node.js
+
+  - name: HamDocker
+    url: https://hub.hamdocker.ir
+    description: Docker registry without sanctions.
+    packages:
+      - Docker Registry
+
+  - name: IUT (Isfahan University of Technology)
+    url: https://repo.iut.ac.ir
+    description: Comprehensive mirror covering many Linux distributions and open-source packages.
+    packages:
+      - Debian
+      - Ubuntu
+      - Mint
+      - Arch Linux
+      - Manjaro
+      - Alpine
+      - Rocky
+      - Fedora
+      - OpenSUSE
+      - OpenBSD
+      - CTAN
+
+  - name: Myket Maven
+    url: https://maven.myket.ir
+    description: Android-focused Maven mirror.
+    packages:
+      - Maven Central
+      - Google Maven
+      - JitPack
+
+  - name: ArvanCloud Linux
+    url: https://www.arvancloud.ir/en/dev/linux-repository
+    description: High-speed mirrors hosted on ArvanCloud for Linux distributions.
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
+      - Alpine
+      - Arch Linux
+      - OpenSUSE
+      - Manjaro
+
+  - name: IranServer
+    url: https://mirror.iranserver.com
+    description: High-speed mirrors by IranServer.
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
+
+  - name: MobinHost Docker
+    url: https://docker.mobinhost.com
+    description: Docker registry mirror.
+    packages:
+      - Docker Registry
+
+  - name: ArvanCloud Docker
+    url: https://www.arvancloud.ir/fa/dev/docker
+    description: Docker registry mirror hosted by ArvanCloud in Iran.
+    packages:
+      - Docker Registry
+
+  - name: Focker
+    url: https://focker.ir
+    description: Docker registry mirror.
+    packages:
+      - Docker Registry
+
+  - name: Liara
+    url: https://liara.ir/mirrors
+    description: Mirrors for Linux distributions, programming packages, and Docker images hosted by Liara in Iran.
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
+      - Fedora
+      - Rocky
+      - Alpine
+      - OpenSUSE
+      - Arch Linux
+      - Manjaro
+      - PyPI
+      - npm
+      - Go
+      - NuGet
+      - Composer
+      - Docker Registry
+
+  - name: MobinHost Full
+    url: https://mirror.mobinhost.com
+    description: Comprehensive GNU/Linux and database mirrors.
+    packages:
+      - FreeBSD
+      - AlmaLinux
+      - Alpine
+      - Arch Linux
+      - Debian
+      - EPEL
+      - Manjaro
+      - MariaDB
+      - MongoDB
+      - Ubuntu
+      - Zabbix
+
+  - name: EN Mirror
+    url: https://en-mirror.ir
+    description: Gradle and Android libraries mirror.
+    packages:
+      - Google Maven
+      - Maven Central
+      - JitPack
+
+  - name: Terraform Peaker
+    url: https://terraform.peaker.info
+    description: Official Terraform proxy in Iran.
+    packages:
+      - Terraform
+
+  - name: Afranet
+    url: http://mirror.afranet.com
+    description: GNU/Linux distributions mirror.
+    packages:
+      - Debian
+      - Ubuntu
+      - CentOS
+
+  - name: Pishgaman Ubuntu
+    url: https://ubuntu.pishgaman.net
+    description: Ubuntu mirror in Iran.
+    packages:
+      - Ubuntu
+
+  - name: Pardisco Mirrors
+    url: https://mirrors.pardisco.co
+    description: GNU/Linux and programming package mirrors.
+    packages:
+      - Ubuntu
+      - Debian
+      - Alpine
+      - PyPI
+      - npm
+      - Go
+      - NuGet
+      - Docker
+      - OmniOS
+
+  - name: CRAN UM
+    url: https://cran.um.ac.ir
+    description: Comprehensive R Archive Network mirror.
+
+  - name: Docker.ir Registry
+    url: https://registry.docker.ir
+    description: Docker registry mirror at docker.ir.
+    packages:
+      - Docker Registry
+
+  - name: IranServer Docker
+    url: https://docker.iranserver.com
+    description: Docker registry mirror by IranServer.
+    packages:
+      - Docker Registry
+
+  - name: HaioCloud Docker
+    url: https://docker.haiocloud.com
+    description: Docker registry mirror by HaioCloud.
+    packages:
+      - Docker Registry
+
+  - name: ArvanCloud Docker Registry
+    url: https://docker.arvancloud.ir
+    description: Docker registry mirror by ArvanCloud.
+    packages:
+      - Docker Registry
+    packages:
+      - R
+
+  - name: Ubuntu Official Iran
+    url: https://ir.archive.ubuntu.com/ubuntu
+    description: Official Ubuntu mirror.
+    packages:
+      - Ubuntu
+
+  - name: 0-1 Cloud Mirror
+    url: https://mirror.0-1.cloud
+    description: Multi-distribution mirror.
+    packages:
+      - AlmaLinux
+      - Alpine
+      - Arch Linux
+      - Debian
+      - Fedora
+      - FreeBSD
+      - Ubuntu
+      - Windows
+
+  - name: ManageIT Ubuntu
+    url: http://mirror.manageit.ir/ubuntu
+    description: Ubuntu mirror.
+    packages:
+      - Ubuntu
+
+  - name: Aminidc
+    url: http://mirror.aminidc.com
+    description: GNU/Linux and Windows Server mirrors.
+    packages:
+      - Debian
+      - RHEL
+      - Rocky
+      - Ubuntu
+      - Windows Server
+
+  - name: KimiaHost Ubuntu
+    url: https://ubuntu-mirror.kimiahost.com
+    description: Ubuntu mirror.
+    packages:
+      - Ubuntu
+
+  - name: DigitalVPS Ubuntu
+    url: https://mirror.digitalvps.ir/ubuntu
+    description: Ubuntu mirror.
+    packages:
+      - Ubuntu
+
+  - name: Sindad Ubuntu
+    url: https://ir.ubuntu.sindad.cloud
+    description: Ubuntu mirror.
+    packages:
+      - Ubuntu
+
+  - name: Sindad CentOS
+    url: https://ir.centos.sindad.cloud
+    description: CentOS mirror.
+    packages:
+      - CentOS
+
+  - name: Sindad EPEL
+    url: https://ir.epel.sindad.cloud
+    description: EPEL mirror.
+    packages:
+      - EPEL
+
+  - name: Faraso
+    url: http://mirror.faraso.org
+    description: CentOS, EPEL, Java & Chrome packages mirror.
+    packages:
+      - CentOS
+      - EPEL
+      - Java Runtime
+      - Java Dev
+
+  - name: DeltaChat
+    url: https://chat.shhh.ir/dl
+    description: DeltaChat mirror.
+    packages:
+      - DeltaChat
+
+  - name: AtlantisCloud
+    url: https://mirror.atlantiscloud.ir
+    description: Docker, Ubuntu, and NPM mirrors.
+    packages:
+      - Ubuntu
+      - Docker Registry
+      - npm
+
+  - name: Chabokan
+    url: https://iran.chabokan.net
+    description: Programming package services mirror.
+    packages:
+      - npm
+      - Python
+      - PHP
+      - Docker
+      - NuGet
+
+  - name: Abrha
+    url: https://repo.abrha.net
+    description: GNU/Linux OS mirrors.
+    packages:
+      - Ubuntu
+      - AlmaLinux
+      - Debian
+      - EPEL
+      - Proxmox
+
+  - name: ParsDev
+    url: https://mirror.parsdev.com
+    description: GNU/Linux distributions mirror.
+    packages:
+      - Ubuntu
+      - AlmaLinux
+      - Debian
+
+  - name: LinuxMirrors
+    url: https://linuxmirrors.ir
+    description: GNU/Linux distributions mirror.
+    packages:
+      - Debian
+      - Ubuntu
+      - Fedora
+      - Rocky
+      - Oracle Linux
